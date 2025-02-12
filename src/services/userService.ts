@@ -1,3 +1,4 @@
+import { Pool } from "mysql2/typings/mysql/lib/Pool";
 import { db } from "~/config/db";// Ajusta la ruta según sea necesario
 
 // Guardar usuario en la base de datos
@@ -54,6 +55,10 @@ export const saveUserName = async (userId: string, name: string) => {
     );
     return rows.length > 0 ? rows[0].last_action : null;
   };
+
+
+ 
+
 
 
 

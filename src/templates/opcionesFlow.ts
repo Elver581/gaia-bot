@@ -77,7 +77,7 @@ export const ventasFlow = addKeyword(['ventas','Ventas'])
     // Llamar a updateLastAction
    console.log(`Actualizando last_action para el flujo "ambiental"`);
    await updateLastAction(ctx.from, 'Ambiental');
-  ;
+  
   })
   .addAnswer(
     "🌍 *Gestión Ambiental*\nNos enfocamos en prácticas sostenibles para cuidar el medio ambiente.\n\n" +
